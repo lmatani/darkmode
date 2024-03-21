@@ -1,0 +1,114 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60px;
+   
+  }
+  
+  header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+
+  
+  .dark_mode {
+    background-color: #000000;
+  }
+
+  .dark_mode_titulo{
+    color: #fce40d;
+  }
+  .dark_mode_texto{
+    color: #ffffff;
+    font-weight: 400px;
+  }
+
+  #mode_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    border: none;
+    background-color: #cac5c3;
+    border-radius: 50px;
+    width: 60px;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .mode_dark_on { 
+   display: block; 
+  }
+  .mode_dark_off {
+    display: none;
+  }
+  
+  #img_light {
+    width: 20px;
+    height: 20px;
+    background-color: #f0c505;
+    border-radius: 50px;
+    margin-right: 30px;
+  }
+
+  #img_dark {
+    width: 20px;
+    height: 20px;
+    background-color: #7460e2;
+    border-radius: 50px;
+    margin-left: 30px;
+  }
+
+  /* sección imagen*/
+  .sec_main_img {
+    height: 500px; 
+    background-image: url('../assets/img/grand-palace.jpg');
+    background-size: cover; 
+    background-position: center; 
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+
+  /* sección texto */
+
+ .sec_main_txt {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0px 40px;
+}
+
+.sec_main_txt div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    max-width: 850px;
+    margin-bottom: 20px;
+}
+
+.sec_main_txt h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    height: 10px;
+}
+
